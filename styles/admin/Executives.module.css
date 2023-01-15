@@ -1,0 +1,13 @@
+.container{
+    color: black;
+ }
+ .wrapper{
+     /* display: flex; */
+     margin-left: 210px;
+ }
+
+ .table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}

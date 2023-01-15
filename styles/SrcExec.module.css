@@ -1,0 +1,40 @@
+.container{
+    width: 22%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.post{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(18, 59, 59);
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(15, 26, 26);
+}
+.describe{
+    text-align: center;
+    color: rgb(7, 1, 1);
+}
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+    .post{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .describe{
+        font-size: 20px;
+    }
+    
+    
+}

@@ -1,0 +1,49 @@
+.container{
+   color: black;
+}
+.wrapper{
+    display: flex;
+    margin-left: 210px;
+    padding: 50px;
+    /* postion: fixed; */
+}
+.item{
+   flex: 1; 
+}
+
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align: left;
+}
+
+/* .trTitle{
+    background-color: blue;
+    */
+/* } */
+.button{
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+.button:first-child{
+    background-color: teal;
+    margin-right: 10px;
+
+}
+.button:last-child{
+    background-color: red;
+
+}
+
+/* .facButn{
+    background-color: rgb(35, 68, 57);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 800px;
+    color: black;
+    font-weight: bold;
+} */
